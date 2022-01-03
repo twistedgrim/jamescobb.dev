@@ -1,7 +1,7 @@
-publishDir = "docs/"
+publishDir = "public/"
 languageCode = "en-us"
-baseurl = "https://jamescobb.dev/"
-title = "James Cobb Dev Site"
+baseurl = "https://twistedgrim.github.io/"
+title = "James Cobb Dev Site and Blog"
 copyright = "Copyright (c) 2022, all rights reserved."
 canonifyurls = true
 paginate = 5
