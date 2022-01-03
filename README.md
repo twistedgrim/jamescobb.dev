@@ -1,2 +1,3 @@
 # jamescobb.dev
-Personal website powered by Hugo and Github Actions
+
+Personal website powered by Hugo, Github Pages, and Github Actions

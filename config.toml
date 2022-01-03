@@ -1,0 +1,73 @@
+publishDir = "docs/"
+languageCode = "en-us"
+baseurl = "https://jamescobb.dev/"
+title = "James Cobb Dev Site"
+copyright = "Copyright (c) 2022, all rights reserved."
+canonifyurls = true
+paginate = 5
+theme = "blackburn"
+
+disqusShortname = "jamescobb-dev"
+
+[params]
+  # Shown in the home page
+  brand = "James Cobb"
+  dateFormat = "Jan 02 2006, 15:04"
+
+[indexes]
+  tag = "tags"
+  topic = "topics"
+
+[taxonomies]
+  tag = "tags"
+
+[social]
+  github = "twistedgrim"
+  twitter = "Twistedgr1m"
+  linkedin = "thejamescobb"
+  email = "me@jamescobb.dev"
+  gitlab = "jamescobb"
+
+[author]
+  name = "James Cobb"
+
+[menu]
+    [[menu.main]]
+      name = "Home"
+      pre = "<i class='fa fa-home fa-fw'></i>"
+      weight = 1
+      identifier = "home"
+      url = "/"
+
+    [[menu.main]]
+      name = "About"
+      pre = "<i class='fa fa-user fa-fw'></i>"
+      weight = 2
+      identifier = "about"
+      url = "/about/"
+
+    [[menu.main]]
+      name = "Posts"
+      pre = "<i class='fa fa-list fa-fw'></i>"
+      weight = 3
+      identifier = "post"
+      url = "/post/"
+
+    # TODO: Add Resume
+    #[[menu.main]]
+    #  name = "Resume"
+    #  pre = "<i class='fa fa-user fa-fw'></i>"
+    #  weight = 4
+    #  identifier = "resume"
+    #  url = "/resume/"
+
+    [[menu.main]]
+      name = "Tags"
+      pre = "<i class='fa fa-solid fa-tag'></i>"
+      weight = 6
+      identifier = "tag"
+      url = "/tags/"
+
+[params.meta]
+  keywords = "blog, tech, resume"
+  description = "Personal site, resume, and tech blog."
